@@ -1,5 +1,5 @@
 # Desafío "profile-card component" de Frontedmentor 
-![Profile card desktop](https://raw.githubusercontent.com/raulpinve/profile-card/main/frontendmentor%20design/design/desktop-preview.jpg)
+![Profile card desktop](https://raw.githubusercontent.com/raulpinve/profile-card/main/design/design/desktop-preview.jpg)
 
 ## Hello :metal:  :sunglasses:
 
