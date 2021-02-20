@@ -10,9 +10,9 @@ Desde que descubrí <b><i>frontedmentor challenges</i></b> decidí realizar sus 
 ## Esta es mi versión 
 
 ### Versión de escritorio
-![Profile card desktop](https://raw.githubusercontent.com/raulpinve/profile-card/main/preview-desktop.png)
+![Profile card desktop](https://raw.githubusercontent.com/raulpinve/profile-card/main/design/images/preview-desktop.png)
 ### Versión mobile
-![Profile card desktop](https://raw.githubusercontent.com/raulpinve/profile-card/main/preview-mobile.png)
+![Profile card desktop](https://raw.githubusercontent.com/raulpinve/profile-card/main/design/images/preview-mobile.png)
 
 ## Guía de estilos
 Como lo propone la documentación oficial del desafío se tuvieron en cuenta las siguientes medidas para el ancho de los media querys: 
