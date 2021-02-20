@@ -1,0 +1,124 @@
+ /* Globals */
+
+*{
+    box-sizing: border-box; 
+}
+
+:root{
+    --darkCyan : hsl(185, 75%, 39%);
+    --desaturatedBlue: hsl(229, 23%, 23%);
+    --grayishBlue: hsl(227, 10%, 46%);
+    --darkGray: hsl(0, 0%, 59%);
+
+}
+
+body{   
+    font-family: 'Kumbh Sans', sans-serif;
+    background: url('images/bg-pattern-top.svg') left -280px top -230px no-repeat, url('images/bg-pattern-bottom.svg') left 180px top 25em no-repeat;
+    background-size: 450px, 450px;
+    background-color: var(--darkCyan);
+}
+/* Card */
+.card{
+    width: 327px;
+    height: 375px;
+    background: white;
+    border-radius: 1em;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+/* Card header */
+.card-header{
+    height: 142px;
+    background:url('images/bg-pattern-card.svg');
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.card-header-img{
+    display: block;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    top: 92px;
+    background: white;
+    border: 6px solid white;
+}
+/* Card body */
+.card-body{
+    height: 233px;
+}
+.card-body-user{
+    height: 147px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid #ececec;
+    padding-top: 3.2em;
+}
+
+.card-body-user-info{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.card-body-user-info-age{
+    color: gray;
+    margin-left: 10px;
+    font-weight: 400;
+}
+.card-body-user-info-city{
+    color: gray;
+    margin: 0;
+    margin-top: 0.4em;
+    font-size: .9em;
+}
+/* Card body social */
+.card-body-social{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 1.8em;
+}
+.card-body-social-element{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.card-body-social-element-number{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.card-body-social-element-label{
+    margin-top: .5em;
+    color:gray;
+    font-size: 10px;
+    letter-spacing: 2px;    
+}
+/* Media querys */
+
+@media screen and (min-width: 992px){
+    body{
+        background: url('images/bg-pattern-top.svg') -50% 60% no-repeat, url('images/bg-pattern-bottom.svg') 150% -70% no-repeat;
+        background-size: 700px, 700px;
+        background-color: var(--darkCyan);
+    }
+}
+@media screen and (min-width: 1440px){
+    body{
+        background: url('images/bg-pattern-top.svg') -50% 60% no-repeat, url('images/bg-pattern-bottom.svg') 160% -30% no-repeat;
+        background-size: 1000px, 1000px;
+        background-color: var(--darkCyan);
+    }
+}
+
+@media screen and (min-width: 1840px){
+    body{
+        background: url('images/bg-pattern-top.svg') left -20% top 60% no-repeat, url('images/bg-pattern-bottom.svg') right -20% top -45% no-repeat;
+        background-size: 1200px, 1200px;
+        background-color: var(--darkCyan);
+    }
+}
